@@ -1,0 +1,184 @@
+/* .collapse {
+    list-style: none;
+}
+
+.collapse a {
+    color: rgb(187, 179, 179);
+    text-decoration: none;
+}
+
+.collapse a:hover {
+    color: white;
+}
+
+.navbar-exl-collapse {
+    margin-top: 50px;
+    margin-left: 110px;
+} */
+
+body {
+    margin-top: 100px;
+}
+
+#wrapper {
+    padding-left: 0px;
+}
+
+#page-wrapper {
+    width: 100%;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+@media (min-width: 768px) {
+    body {
+        margin-top: 50px;
+    }
+    #wrapper {
+        padding-left: 255px;
+    }
+    #page-wrapper {
+        padding: 10px;
+    }
+}
+
+
+/* Top Nav Styling */
+
+.top-nav {
+    padding: 0, 15px;
+}
+
+.top-nav>li {
+    float: left;
+    display: inline-block;
+}
+
+.top-nav>li>a {
+    color: #9999;
+    line-height: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.top-nav>li>a:hover,
+.top-nav>li>a:focus {
+    color: #000000;
+}
+
+
+/* Sidebar Styling */
+
+@media (min-width: 768px) {
+    .side-nav {
+        position: fixed;
+        top: 51px;
+        bottom: 0;
+        width: 255px;
+        overflow-y: auto;
+        overflow-x: hidden;
+        background-color: #222;
+        padding-bottom: 40px;
+        border-radius: 0;
+    }
+    .side-nav>li>a {
+        width: 255px;
+    }
+    .side-nav>li>a:hover,
+    .side-nav>li>a:focus {
+        outline: none;
+        background-color: #000 !important;
+    }
+}
+
+.side-nav>li>ul {
+    padding: 0;
+}
+
+.side-nav>li>ul>li>a {
+    padding: 10px 15px 10px 38px;
+    text-decoration: none;
+    color: #999;
+    display: block;
+}
+
+.side-nav>li>ul>li>a:hover {
+    color: #fff;
+}
+
+
+/* customer */
+
+.huge {
+    font-size: 40px;
+    line-height: normal;
+}
+
+
+.panel-red {
+    border-color: rgb(214, 49, 49);
+}
+
+.panel-red>.panel-heading {
+    color: #ffff;
+    background-color: rgb(214, 49, 49);
+}
+
+.panel-red>a {
+    color: rgb(214, 49, 49);
+}
+
+.panel-red>a:hover {
+    color: rgb(187, 3, 3);
+}
+
+.panel-green {
+    border-color: rgb(91, 117, 19);
+}
+
+.panel-green>.panel-heading {
+    color: #ffff;
+    background-color: rgb(91, 117, 19);
+}
+
+.panel-green>a {
+    color: rgb(91, 117, 19);
+}
+
+.panel-green>a:hover {
+    color: rgb(52, 71, 2);
+}
+
+.panel-brown {
+    border-color: rgb(121, 17, 17);
+}
+
+.panel-brown>.panel-heading {
+    color: #ffff;
+    background-color: rgb(121, 17, 17);
+}
+
+.panel-brown>a {
+    color: rgb(121, 17, 17);
+}
+
+.panel-brown>a:hover {
+    color: rgb(73, 2, 2);
+}
+
+.panel-purple {
+    border-color: rgb(76, 29, 121);
+}
+
+.panel-purple>.panel-heading {
+    color: #ffff;
+    background-color: rgb(76, 29, 121);
+}
+
+.panel-purple>a {
+    color: rgb(76, 29, 121);
+}
+
+.panel-purple>a:hover {
+    color: rgb(37, 3, 70);
+}
